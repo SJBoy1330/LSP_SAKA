@@ -12,7 +12,7 @@
 		<meta property="og:url" content="https://keenthemes.com/metronic" />
 		<meta property="og:site_name" content="Keenthemes | Metronic" />
 		<link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
-		<link rel="shortcut icon" href="<?= base_url();?>assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="<?= base_url();?>assets/icons/logo-grafika.png" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<link href="<?= base_url();?>assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="<?= base_url();?>assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />

@@ -2792,3 +2792,57 @@ ERROR - 2022-05-17 15:34:26 --> Severity: Warning --> mysqli::real_connect(): (H
 ERROR - 2022-05-17 15:34:26 --> Unable to connect to the database
 ERROR - 2022-05-17 15:34:26 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
 ERROR - 2022-05-17 15:34:26 --> Unable to connect to the database
+ERROR - 2022-05-17 15:50:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:50:33 --> Unable to connect to the database
+ERROR - 2022-05-17 15:50:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:50:33 --> Unable to connect to the database
+ERROR - 2022-05-17 15:50:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:50:33 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:24 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:24 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:24 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:27 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:27 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:27 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:27 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:27 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:27 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:29 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:31 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:32 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:32 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:32 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:32 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:33 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:33 --> Unable to connect to the database
+ERROR - 2022-05-17 15:52:33 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'grafika_cafe_saka' C:\xampp\htdocs\LSP\LSP_SAKA\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2022-05-17 15:52:33 --> Unable to connect to the database
