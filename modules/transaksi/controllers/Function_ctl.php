@@ -12,6 +12,10 @@ class Function_ctl extends MY_Controller
 		} else {
 			$this->id_user = 1;
 		}
+
+		// LOAD Models
+		$this->load->model('transaksi_m');
+		$this->load->model('menu_transaksi_m');
 	}
 
 	public function index()
@@ -19,28 +23,51 @@ class Function_ctl extends MY_Controller
 		echo 'AKSES DENIED';
 	}
 
-	public function tambah_user()
+	public function tambah_transaksi()
 	{
-		$nama = 'Saka dana asmara';
-		$arr['username'] 	= 'admin';
-		$arr['nama'] 		= $nama;
-		$arr['password'] 		= hash_password('admin' . '12345');
-		$arr['role'] 		= 1;
-		$arr['aktif']		= 'Y';
-		$arr['online']		= 'Y';
-		$arr['online_akses']	= date('Y-m-d H:i:s');
+		$atas_nama = 'Angreaning Tyas';
+		$menu[0]['nama_menu'] = 'Nasi goreng';
+		$menu[0]['jumlah'] = 2;
+		$menu[0]['harga'] = 5000;
+		$menu[1]['nama_menu'] = 'Mie goreng aceh';
+		$menu[1]['jumlah'] = 2;
+		$menu[1]['harga'] = 10000;
+		$menu[2]['nama_menu'] = 'Capjay';
+		$menu[2]['jumlah'] = 1;
+		$menu[2]['harga'] = 20000;
+		$total_harga = [10000, 20000, 20000];
+		$arr['atas_nama'] 	= $atas_nama;
+		$arr['id_user'] 		= $this->id_user;
+		$arr['total_harga'] 		= array_sum($total_harga);
+		$arr['status_pesanan'] 		= 1;
+		$arr['create_date']		= date('Y-m-d H:i:s');
 
-		$insert = $this->user_m->insert($arr);
+		$insert = $this->transaksi_m->insert($arr);
 		if ($insert) {
-			$log['id_user'] = $this->id_user;
-			$log['log_aktifitas'] = 'Membuat user baru dengan nama : <b>' . $nama . '</b>';
-			$log['tanggal'] = date('Y-m-d H:i:s');
+			$no = 1;
+			foreach ($menu as $row) {
+				$num = $no++;
+				$arrIn[$num]['id_transaksi'] = $insert;
+				$arrIn[$num]['nama_menu'] = $row['nama_menu'];
+				$arrIn[$num]['jumlah_pesan'] = $row['jumlah'];
+				$arrIn[$num]['harga_peritem'] = $row['harga'];
+				$arrIn[$num]['total_harga'] = $row['jumlah'] * $row['harga'];
+			}
 
-			$insert_log = $this->log_aktifitas_m->insert($log);
-			if ($insert_log) {
-				echo 'Berhasil melakukan insert (log berhasil di simpan)';
+			$insert_menu = $this->menu_transaksi_m->insert_batch($arrIn);
+			if ($insert_menu) {
+				$log['id_user'] = $this->id_user;
+				$log['log_aktifitas'] = 'Membuat pesanan atas nama : <b>' . $atas_nama . '</b>';
+				$log['tanggal'] = date('Y-m-d H:i:s');
+
+				$insert_log = $this->log_aktifitas_m->insert($log);
+				if ($insert_log) {
+					echo 'Berhasil melakukan insert (log berhasil di simpan)';
+				} else {
+					echo 'Berhasil melakukan insert (log gagal di simpan)';
+				}
 			} else {
-				echo 'Berhasil melakukan insert (log gagal di simpan)';
+				echo 'Gagal melakukan insert';
 			}
 		} else {
 			echo 'Gagal melakukan insert';
