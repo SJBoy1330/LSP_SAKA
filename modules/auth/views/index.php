@@ -23,13 +23,10 @@
 				<div class="d-flex flex-column flex-lg-row-auto w-xl-600px positon-xl-relative" style="background-color: #db1430">
 					<div class="d-flex flex-column position-xl-fixed top-0 bottom-0 w-xl-600px scroll-y">
 						<div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
-							<a href="../../demo13/dist/index.html" class="py-9 mb-5">
-								<img alt="Logo" src="assets/media/logos/logo-2.svg" class="h-60px" />
-							</a>
-							<h1 class="fw-bolder fs-2qx pb-3" style="color: #FFFFFF;">Uji LSP PWPB</h1>
+							<h1 class="fw-bolder fs-2qx pt-15 pb-3" style="color: #FFFFFF;">Uji LSP PWPB</h1>
 							<p class="fw-bold fs-2" style="color: #FFFFFF;">Bangunlah karya sebanyak mungkin, sampai tidak punya ide lagi</p>
 						</div>
-						<div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-350px" style="background-image: url(assets/media/illustrations/unitedpalms-1/13.png)"></div>
+						<div class="d-flex flex-row-auto bgi-no-repeat bgi-position-x-center bgi-size-contain bgi-position-y-bottom min-h-100px min-h-lg-300px mb-20" style="background-image: url(assets/icons/logo-grafika.png);"></div>
 					</div>
 				</div>
 				<div class="d-flex flex-column flex-lg-row-fluid py-10">
