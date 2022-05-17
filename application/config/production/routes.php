@@ -161,6 +161,28 @@ $route['func_transaksi/(:any)'] = 'transaksi/function_ctl/$1';
 $route['func_transaksi/(:any)/(:any)'] = 'transaksi/function_ctl/$1/$2';
 
 
+
+
+
+// ROUTE SETTING
+$route['setting']  = 'setting/controller_ctl';
+
+$route['setting/(:any)'] = 'setting/controller_ctl/$1';
+
+$route['setting/(:any)/(:any)'] = 'setting/controller_ctl/$1/$2';
+
+
+
+
+
+// ROUTE LAPORAN
+$route['laporan']  = 'laporan/controller_ctl';
+
+$route['laporan/(:any)'] = 'laporan/controller_ctl/$1';
+
+$route['laporan/(:any)/(:any)'] = 'laporan/controller_ctl/$1/$2';
+
+
 $route['404_override'] = '';
 
 $route['translate_uri_dashes'] = FALSE;
